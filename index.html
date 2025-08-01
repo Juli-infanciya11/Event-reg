@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Event Signup</title>
+</head>
+<body>
+  <h1>Register for the Campus Event</h1>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Personal Details</legend>
+
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="gender">Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="Male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label><br><br>
+
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone"><br><br>
+
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>College Information</legend>
+
+      <label for="college">College Name:</label><br>
+      <input type="text" id="college" name="college" required><br><br>
+
+      <label for="department">Department:</label><br>
+      <input type="text" id="department" name="department"><br><br>
+
+      <label for="year">Year of Study:</label><br>
+      <select id="year" name="year">
+        <option value="1">1st Year</option>
+        <option value="2">2nd Year</option>
+        <option value="3">3rd Year</option>
+        <option value="4">4th Year</option>
+      </select><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Event Details</legend>
+
+      <label for="event">Event Interested In:</label><br>
+      <input type="text" id="event" name="event" required><br><br>
+    </fieldset>
+
+    <input type="submit" value="Submit Registration">
+  </form>
+
+</body>
+</html>
